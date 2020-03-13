@@ -1,6 +1,38 @@
-.vscode/
-npm-debug.log*
-node_modules/
 .npm
 .env
 temp.js
+
+# compiled output
+dist/
+/tmp
+/out-tsc
+docs/
+.rpt2_cache
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+.vscode/
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# misc
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+temp.js
+*.log
+test.ts
+
+# System Files
+.DS_Store
+Thumbs.db

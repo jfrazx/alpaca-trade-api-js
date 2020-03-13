@@ -1,3 +1,6 @@
 .git*
 test/
 .env.example
+*.ts
+
+!.d.ts
